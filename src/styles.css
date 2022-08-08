@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.nav {
+  height: 60px;
+  background-color: #f55a5a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+section {
+  margin: 40px;
+}
+
+.cardimg {
+  width: 125px;
+  height: 168px;
+}
+
+.cardbox {
+  display: flex;
+  flex-direction: row;
+  height: 200px;
+  padding-bottom: 20px;
+}
+
+.boxContent {
+  min-width: 300px;
+  margin-left: 2rem;
+  margin-right: 20px;
+}
+
+.cardtitle {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+  color: #2b283a;
+  padding-bottom: 20px;
+}
+.Date {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 10.24px;
+  line-height: 12px;
+  padding-bottom: 7px;
+  color: #2b283a;
+}
+.carddesc {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 150%;
+  color: #2b283a;
+  padding-top: 9px;
+}
+.location {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 12px;
+  letter-spacing: 0.17em;
+  padding-left: 10px;
+
+  color: #2b283a;
+}
+.maps {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 12px;
+  padding-left: 7px;
+  /* identical to box height */
+
+  text-decoration-line: underline;
+
+  color: #918e9b;
+}
+.locationbox {
+  padding-bottom: 10px;
+}
